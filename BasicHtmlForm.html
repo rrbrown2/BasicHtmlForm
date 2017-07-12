@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Romario</title>
+</head>
+
+<body>
+<h1>Register</h1>
+
+<form action="">
+	<!-- first name-->
+	<label for="">
+		First Name:
+		<input type="text" placeholder="First Name" required>
+	</label>
+	<!-- Last Name -->
+	<label for="">
+		Last Name
+		<input type="text" placeholder="Last Name" required>
+	</label>
+	<!-- Email and Password -->
+	<div>
+	  <label for="">
+			Email:
+				<input type="email" required placeholder="Email"> 
+			Password:
+				<input type="text" minLength="5" required placeholder="password">
+			
+		</label>
+		
+		
+	</div>
+<!-- Gender -->
+	<div>
+	<!--Male-->
+		<label for="">
+			Male:
+			<input type="radio" name="gender" value="male">
+		</label>
+		<!--Female -->
+		<label for="">
+			Female:
+			<input type="radio" name="gender" value="female">
+		</label>		
+		<!--Other -->
+		<label for="">
+			Other:
+				<input type="radio" name="gender" value="other">
+			
+		</label>
+	</div>
+	
+	<!-- Birthday -->
+	<div>
+		<label for="birthday">
+			Birthday:
+			<!--Month-->
+			<select name="" id="">
+				<option value="">Month</option>
+			</select>
+			<!--Day-->
+			<select name="" id="">
+				<option value="">Day</option>
+			</select>
+			<!-- Year-->
+			<select name="" id="">
+				<option value="">Year</option>
+			</select>
+			
+		</label>
+		<!--Terms and Conditions -->
+		<div>
+		<label for="">
+			I agree to the terms and conditions
+			<input type="checkbox"><br>
+		</label>
+		</div>
+		<input type="submit">
+	</div>
+	
+	
+	
+</form>
+
+
+
+</body>
+</html>
